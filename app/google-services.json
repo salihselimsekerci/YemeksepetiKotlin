@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1067131434892",
+    "firebase_url": "https://yemeksepeti-c4e94-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "yemeksepeti-c4e94",
+    "storage_bucket": "yemeksepeti-c4e94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067131434892:android:b6c97e9af04f25e42b48a9",
+        "android_client_info": {
+          "package_name": "com.example.kotlin_bp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067131434892-fs1q1t9ejq9tgk6u0le6rbn3khdt6mi7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjzlf2pD_JiqteD53-rjKGaIkPue61_6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067131434892-fs1q1t9ejq9tgk6u0le6rbn3khdt6mi7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067131434892:android:fe994fdb19a50a882b48a9",
+        "android_client_info": {
+          "package_name": "com.salihselimsekerci.yemeksepetikotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067131434892-fs1q1t9ejq9tgk6u0le6rbn3khdt6mi7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjzlf2pD_JiqteD53-rjKGaIkPue61_6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067131434892-fs1q1t9ejq9tgk6u0le6rbn3khdt6mi7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

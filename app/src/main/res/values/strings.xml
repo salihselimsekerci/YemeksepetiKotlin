@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">yemek sepeti kotlin</string>
+    <string name="internetError">Lütfen internet ayarlarınızı kontrol ediniz.</string>
+    <string name="forgotpassword">Şifremi Unuttum</string>
+    <string name="userNamePassword">Kullanıcı Adı / E-Posta *</string>
+    <string name="password">Şifre *</string>
+    <string name="passwordAgain">Şifre Tekrar *</string>
+    <string name="login">Giriş Yap</string>
+    <string name="register">Üye Ol</string>
+    <string name="or">veya</string>
+    <string name="email">E-mail *</string>
+    <string name="nameSurname">Ad Soyad *</string>
+    <string name="adress">Adres *</string>
+    <string name="search">ARA</string>
+    <string name="toastSuccesfullregister">Kayıt işlemi başarılı</string>
+    <string name="toastFail">Hata ! Lütfen tekrar deneyiniz ... </string>
+    <string name="toastPasswordsnotmatch">Şifreler eşleşmiyor</string>
+    <string name="progressDialogLoginTitle">Lütfen bekleyiniz</string>
+    <string name="progressDialogLoginMessage">Giriş işlemi yapılıyor ... </string>
+    <string name="progressDialogCategoryTitle">Kategori bilgileri alınıyor</string>
+    <string name="progressDialogCategoryMessage">Lütfen Bekleyiniz ... </string>
+    <string name="toastFillallfields">Lütfen tüm alanları doldurunuz ... </string>
+    <string name="toastSentResetPasswordLink">Şifre sıfırlama linki e posta adresinize gönderildi ... </string>
+    <string name="toastFAILResetPAssword">Şifre sıfırlama linki gönderilemedi ... </string>
+    <string name="toastSuccessLogin">Giriş işlemi başarılı</string>
+    <string name="toastFailLogin">Giriş işlemi sırasında hata oluştu. Lütfen daha sonra tekrar deneyiniz...</string>
+    <string name="builderExit">Çıkış</string>
+    <string name="builderAskExit">Çıkmak istiyor musunuz?</string>
+    <string name="YES">Evet</string>
+    <string name="NO">Hayır</string>
+    <string name="category">category</string>
+    <string name="product">product</string>
+    <string name="detail">detail</string>
+    <string name="image">image</string>
+    <string name="categories">Kategoriler</string>
+    <string name="haveaccount">Hesabım Var</string>
+    <string name="giveorder">Sipariş Ver</string>
+    <string name="pricepcs">Adet Fiyatı</string>
+    <string name="price">price</string>
+    <string name="pcs">Adet</string>
+    <string name="error">Error</string>
+    <string name="tl">TL</string>
+    <string name="builderSetTitle">Sırala</string>
+    <string name="builderSetMessage">Kategorileri sıralamak için lütfen birini seçiniz</string>
+    <string name="builderAscendingByName">isme göre artan</string>
+    <string name="builderDescendingByName">isme göre azalan</string>
+    <string name="builderSetPositiveButton">İsme göre artan sırala</string>
+    <string name="builderSetNegativeButton">İsme göre azalan sırala</string>
+    <string name="products">products</string>
+    <string name="productsProgressDialogTitle">Ürünler Yükleniyor</string>
+    <string name="productsProgressDialogMessage">Lütfen Bekleyiniz ... </string>
+    <string name="sortByName">İsme Göre Sırala</string>
+    <string name="character">En az 8 karakter olmalıdır</string>
+    <string name="character2">1 büyük harf, 1 küçük harf, 1 sembol ve 1 sayı içermelidir.</string>
+    <string name="emailNotEmpty">E mail boş bırakılamaz !</string>
+    <string name="users">users</string>
+    <string name="uid">uid</string>
+    <string name="firebaseEmail">email</string>
+    <string name="firebasePassword">password</string>
+    <string name="firebaseNameSurname">nameSurname</string>
+    <string name="firebaseAdress">adress</string>
+    <string name="splashBuilderTitle">İnternetiniz Kapalı</string>
+    <string name="splashBuilderMessage">Açmak ister misiniz?</string>
+    <string name="loremIpsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+        industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuri</string>
+
+    //Firebase References
+    <string name="refCategories">categories</string>
+
+    <string-array name="spinnerList">
+        <item>İsme göre artan</item>
+        <item>İsme göre azalan</item>
+    </string-array>
+</resources>

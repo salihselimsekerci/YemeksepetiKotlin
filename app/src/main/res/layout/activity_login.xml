@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LoginActivity">
+
+    <EditText
+        android:id="@+id/et_loginMail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loginScreenETEmailHeight"
+        android:layout_marginStart="@dimen/loginScreenETmailStart"
+        android:layout_marginLeft="@dimen/loginScreenETmailLeft"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="@dimen/loginScreenETmailTop"
+        android:layout_marginEnd="@dimen/loginScreenETmailEnd"
+        android:layout_marginRight="@dimen/loginScreenETmailRight"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:fontFamily="@font/alice"
+        android:hint="@string/userNamePassword"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/et_loginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loginScreenETPswHeight"
+        android:layout_marginStart="@dimen/loginScreenETPswStart"
+        android:layout_marginLeft="@dimen/loginScreenETPswLeft"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="@dimen/loginScreenETPswTop"
+        android:layout_marginEnd="@dimen/loginScreenETPswEnd"
+        android:layout_marginRight="@dimen/loginScreenETPswRight"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:fontFamily="@font/alice"
+        android:hint="@string/password"
+        android:inputType="textPersonName|textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_loginMail"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loginScreenBtnLoginHeight"
+        android:layout_marginStart="@dimen/loginScreenBtnLoginStart"
+        android:layout_marginLeft="@dimen/loginScreenBtnLoginLeft"
+        android:layout_marginTop="@dimen/loginScreenBtnLoginTop"
+        android:layout_marginEnd="@dimen/loginScreenBtnLoginEnd"
+        android:layout_marginRight="@dimen/loginScreenBtnLoginRight"
+        android:backgroundTint="@color/buttonBgGreen"
+        android:fontFamily="@font/alice"
+        android:gravity="center|left"
+        android:text="@string/login"
+        app:cornerRadius="@dimen/loginScreenBtnCornerRadius"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_forgotPsw"
+        tools:targetApi="lollipop"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/iv_eye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/loginScreenIvEyeEnd"
+        android:layout_marginRight="@dimen/loginScreenIvEyeRight"
+        app:layout_constraintBottom_toBottomOf="@+id/et_loginPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_loginPassword"
+        app:srcCompat="@drawable/ic_baseline_remove_red_eye_24"
+        tools:ignore="ContentDescription,VectorDrawableCompat" />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loginScreenBtnSignupHeight"
+        android:layout_marginStart="@dimen/loginScreenBtnSignupStart"
+        android:layout_marginLeft="@dimen/loginScreenBtnSignupLeft"
+        android:layout_marginTop="@dimen/loginScreenBtnSignupTop"
+        android:layout_marginEnd="@dimen/loginScreenBtnSignupEnd"
+        android:layout_marginRight="@dimen/loginScreenBtnSignupRight"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/alice"
+        android:gravity="center|left"
+        android:text="@string/register"
+        android:textColor="@color/buttonBgGreen"
+        app:cornerRadius="@dimen/loginScreenBtnSignupRadius"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login"
+        app:strokeColor="@color/buttonBgGreen"
+        app:strokeWidth="@dimen/loginScreenBtnSignupStroke"
+        tools:targetApi="lollipop"
+        tools:ignore="RtlHardcoded" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/loginScreenLinearLayoutTop"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_signup">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loginScreenLinearLayoutHeight"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:orientation="horizontal" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/alice"
+            android:gravity="center"
+            android:text="@string/or"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loginScreenLinearLayoutHeight"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:orientation="horizontal" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_fbReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/loginScreenIvTop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:srcCompat="@drawable/fbbutton" />
+
+    <TextView
+        android:id="@+id/tv_forgotPsw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/loginScreenTvForgotPswTop"
+        android:layout_marginEnd="@dimen/loginScreenTvForgotPswEnd"
+        android:layout_marginRight="@dimen/loginScreenTvForgotPswRight"
+        android:layout_marginBottom="@dimen/loginScreenTvForgotPswBottom"
+        android:fontFamily="@font/alice"
+        android:text="@string/forgotpassword"
+        app:layout_constraintBottom_toTopOf="@+id/btn_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_loginPassword" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

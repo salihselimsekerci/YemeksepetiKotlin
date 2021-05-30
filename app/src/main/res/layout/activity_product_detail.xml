@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ProductDetailActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_productDetail"
+        android:layout_width="@dimen/ProductDetailScreencircleImageWidth"
+        android:layout_height="@dimen/ProductDetailScreencircleImageHeight"
+        android:layout_marginStart="@dimen/ProductDetailScreencircleImageStart"
+        android:layout_marginLeft="@dimen/ProductDetailScreencircleImageLeft"
+        android:layout_marginTop="@dimen/ProductDetailScreencircleImageTop"
+        android:layout_marginBottom="@dimen/ProductDetailScreencircleImageBottom"
+        app:layout_constraintBottom_toTopOf="@+id/tv_productTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_productTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/ProductDetailTvTitleStart"
+        android:layout_marginLeft="@dimen/ProductDetailTvTitleLeft"
+        android:layout_marginTop="@dimen/ProductDetailTvTitleTop"
+        android:layout_marginEnd="@dimen/ProductDetailTvTitleEnd"
+        android:layout_marginRight="@dimen/ProductDetailTvTitleRight"
+        android:fontFamily="@font/alice"
+        android:gravity="center"
+        android:text="Ürün Başlığı"
+        android:textColor="@color/splashScreenbg"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_productDetail"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tv_productDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/ProductDetailTvDetailStart"
+        android:layout_marginLeft="@dimen/ProductDetailTvDetailLeft"
+        android:layout_marginTop="@dimen/ProductDetailTvDetailTop"
+        android:layout_marginEnd="@dimen/ProductDetailTvDetailEnd"
+        android:layout_marginRight="@dimen/ProductDetailTvDetailRight"
+        android:fontFamily="@font/alice"
+        android:text="@string/loremIpsum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_productTitle" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="@dimen/ProductDetailImageWidth"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo2"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ProductDetailBtnDetailHeight"
+        android:layout_marginStart="@dimen/ProductDetailBtnDetailStart"
+        android:layout_marginLeft="@dimen/ProductDetailBtnDetailLeft"
+        android:layout_marginTop="@dimen/ProductDetailBtnDetailTop"
+        android:layout_marginEnd="@dimen/ProductDetailBtnDetailEnd"
+        android:layout_marginRight="@dimen/ProductDetailBtnDetailRight"
+        android:text="@string/giveorder"
+        app:backgroundTint="@color/splashScreenbg"
+        app:cornerRadius="@dimen/ProductDetailBtnDetailRadius"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/ProductDetailTv2DetailStart"
+        android:layout_marginLeft="@dimen/ProductDetailTv2DetailLeft"
+        android:layout_marginTop="@dimen/ProductDetailTv2DetailTop"
+        android:layout_marginEnd="@dimen/ProductDetailTv2DetailEnd"
+        android:layout_marginRight="@dimen/ProductDetailTv2DetailRight"
+        android:layout_marginBottom="@dimen/ProductDetailTv2DetailBottom"
+        android:fontFamily="@font/alice"
+        android:text="@string/pricepcs"
+        app:layout_constraintBottom_toTopOf="@+id/tv_pricePcs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_productDetail"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/tv_pricePcs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/ProductDetailTvPricePcsStart"
+        android:layout_marginLeft="@dimen/ProductDetailTvPricePcsLeft"
+        android:layout_marginTop="@dimen/ProductDetailTvPricePcsTop"
+        android:layout_marginEnd="@dimen/ProductDetailTvPricePcsEnd"
+        android:layout_marginRight="@dimen/ProductDetailTvPricePcsRight"
+        android:layout_marginBottom="@dimen/ProductDetailTvPricePcsBottom"
+        android:fontFamily="@font/alice"
+        app:layout_constraintBottom_toTopOf="@+id/tv_productTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_productDetail"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ProductDetailLinearLayout2Top"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/tv_productDetail">
+
+        <ImageView
+            android:id="@+id/iv_remove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/ProductDetailIvRemoveStart"
+            android:layout_marginLeft="@dimen/ProductDetailIvRemoveLeft"
+            android:layout_marginTop="@dimen/ProductDetailIvRemoveTop"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_baseline_remove_24"
+            tools:ignore="ContentDescription,VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/tv_pcs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/ProductDetailTvPcsStart"
+            android:layout_marginLeft="@dimen/ProductDetailTvPcsLeft"
+            android:layout_weight="1"
+            android:fontFamily="@font/alice"
+            android:gravity="center"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/iv_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/ProductDetailIvAddStart"
+            android:layout_marginLeft="@dimen/ProductDetailIvAddLeft"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_baseline_add_24"
+            tools:ignore="ContentDescription,VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/ProductDetailTvPriceStart"
+            android:layout_marginLeft="@dimen/ProductDetailTvPriceLeft"
+            android:layout_marginEnd="@dimen/ProductDetailTvPriceEnd"
+            android:layout_marginRight="@dimen/ProductDetailTvPriceRight"
+            android:layout_weight="1"
+            android:fontFamily="@font/alice"
+            android:gravity="center"
+            android:text="" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

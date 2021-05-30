@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RegisterActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="@dimen/registerScreenIvWidth"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logo2"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et_mail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/registerScreenEtmailHeight"
+        android:layout_marginStart="@dimen/registerScreenEtmailStart"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="@dimen/registerScreenEtmailLeft"
+        android:layout_marginTop="@dimen/registerScreenEtmailTop"
+        android:layout_marginEnd="@dimen/registerScreenEtmailEnd"
+        android:layout_marginRight="@dimen/registerScreenEtmailRight"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:fontFamily="@font/alice"
+        android:hint="@string/email"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/et_password1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/registerScreenEtpswHeight"
+        android:layout_marginStart="@dimen/registerScreenEtpswStart"
+        android:layout_marginLeft="@dimen/registerScreenEtpswLeft"
+        android:layout_marginTop="@dimen/registerScreenEtpswTop"
+        android:paddingLeft="10dp"
+        android:layout_marginEnd="@dimen/registerScreenEtpswEnd"
+        android:layout_marginRight="@dimen/registerScreenEtpswRight"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:fontFamily="@font/alice"
+        android:hint="@string/password"
+        android:inputType="textPersonName|textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_mail"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/et_password2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/registerScreenEtpswHeight"
+        android:layout_marginStart="@dimen/registerScreenEtpswStart"
+        android:layout_marginLeft="@dimen/registerScreenEtpswLeft"
+        android:layout_marginTop="@dimen/registerScreenEtpswTop"
+        android:paddingLeft="10dp"
+        android:layout_marginEnd="@dimen/registerScreenEtpswEnd"
+        android:layout_marginRight="@dimen/registerScreenEtpswRight"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:fontFamily="@font/alice"
+        android:hint="@string/passwordAgain"
+        android:inputType="textPersonName|textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_password1"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/registerScreenBtnRegHeight"
+        android:layout_marginStart="@dimen/registerScreenBtnRegStart"
+        android:layout_marginLeft="@dimen/registerScreenBtnRegLeft"
+        android:layout_marginTop="@dimen/registerScreenBtnRegTop"
+        android:layout_marginEnd="@dimen/registerScreenBtnRegEnd"
+        android:layout_marginRight="@dimen/registerScreenBtnRegRight"
+        android:fontFamily="@font/alice"
+        android:text="@string/register"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/buttonBgGreen"
+        app:cornerRadius="@dimen/registerScreenBtnRegStroke"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_adress" />
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/registerScreenTvLoginTop"
+        android:layout_marginEnd="@dimen/registerScreenTvLoginEnd"
+        android:layout_marginRight="@dimen/registerScreenTvLoginRight"
+        android:fontFamily="@font/alice"
+        android:text="@string/haveaccount"
+        android:textColor="@color/splashScreenbg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_register" />
+
+    <ImageView
+        android:id="@+id/iv_pswEye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/registerScreenIvEyeEnd"
+        android:layout_marginRight="@dimen/registerScreenIvEyeRight"
+        app:layout_constraintBottom_toBottomOf="@+id/et_password1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_password1"
+        app:layout_constraintVertical_bias="0.583"
+        app:srcCompat="@drawable/ic_baseline_remove_red_eye_24"
+        tools:ignore="ContentDescription,VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/iv_pswEye2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/registerScreenIvEyeEnd"
+        android:layout_marginRight="@dimen/registerScreenIvEyeRight"
+        app:layout_constraintBottom_toBottomOf="@+id/et_password2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_password2"
+        app:layout_constraintVertical_bias="0.527"
+        app:srcCompat="@drawable/ic_baseline_remove_red_eye_24"
+        tools:ignore="ContentDescription,VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/registerScreenTvStart"
+        android:layout_marginLeft="@dimen/registerScreenTvLeft"
+        android:layout_marginTop="@dimen/registerScreenTvTop"
+        android:text="@string/character"
+        android:textSize="@dimen/tvReg_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_password2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/registerScreenTv2Start"
+        android:layout_marginLeft="@dimen/registerScreenTv2Left"
+        android:layout_marginTop="@dimen/registerScreenTv2Top"
+        android:text="@string/character2"
+        android:textSize="@dimen/tvReg_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/et_nameSurname"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/registerScreenEtnameHeight"
+        android:layout_marginStart="@dimen/registerScreenEtnameStart"
+        android:layout_marginLeft="@dimen/registerScreenEtnameLeft"
+        android:layout_marginTop="@dimen/registerScreenEtnameTop"
+        android:layout_marginEnd="@dimen/registerScreenEtnameEnd"
+        android:layout_marginRight="@dimen/registerScreenEtnameRight"
+        android:paddingLeft="10dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:fontFamily="@font/alice"
+        android:hint="@string/nameSurname"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/et_adress"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/registerScreenEtadresHeight"
+        android:layout_marginStart="@dimen/registerScreenEtadresStart"
+        android:layout_marginLeft="@dimen/registerScreenEtadresLeft"
+        android:layout_marginTop="@dimen/registerScreenEtadresTop"
+        android:paddingLeft="10dp"
+        android:layout_marginEnd="@dimen/registerScreenEtadresEnd"
+        android:layout_marginRight="@dimen/registerScreenEtadresRight"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:fontFamily="@font/alice"
+        android:hint="@string/adress"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_nameSurname"
+        tools:ignore="Autofill" />
+</androidx.constraintlayout.widget.ConstraintLayout>

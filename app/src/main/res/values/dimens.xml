@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Splash Screen
+    <dimen name="progressBarMarginTop">73dp</dimen>
+    <dimen name="progressBarMarginBottom">324dp</dimen>
+    <dimen name="splashScreenImageViewMarginStart">58dp</dimen>
+    <dimen name="splashScreenImageViewMarginLeft">58dp</dimen>
+    <dimen name="splashScreenImageViewMarginTop">65dp</dimen>
+    <dimen name="splashScreenImageViewMarginEnd">59dp</dimen>
+    <dimen name="splashScreenImageViewMarginRight">59dp</dimen>
+    // Login Screen
+    <dimen name="loginScreenETEmailHeight">60dp</dimen>
+    <dimen name="loginScreenETmailStart">20dp</dimen>
+    <dimen name="loginScreenETmailLeft">20dp</dimen>
+    <dimen name="loginScreenETmailRight">20dp</dimen>
+    <dimen name="loginScreenETmailEnd">20dp</dimen>
+    <dimen name="loginScreenETmailTop">25dp</dimen>
+
+    <dimen name="loginScreenETPswHeight">60dp</dimen>
+    <dimen name="loginScreenETPswStart">20dp</dimen>
+    <dimen name="loginScreenETPswLeft">20dp</dimen>
+    <dimen name="loginScreenETPswRight">20dp</dimen>
+    <dimen name="loginScreenETPswEnd">20dp</dimen>
+    <dimen name="loginScreenETPswTop">25dp</dimen>
+
+    <dimen name="loginScreenBtnLoginHeight">70dp</dimen>
+    <dimen name="loginScreenBtnLoginStart">20dp</dimen>
+    <dimen name="loginScreenBtnLoginLeft">20dp</dimen>
+    <dimen name="loginScreenBtnLoginRight">20dp</dimen>
+    <dimen name="loginScreenBtnLoginEnd">20dp</dimen>
+    <dimen name="loginScreenBtnLoginTop">25dp</dimen>
+    <dimen name="loginScreenBtnCornerRadius">30dp</dimen>
+
+    <dimen name="loginScreenIvEyeEnd">30dp</dimen>
+    <dimen name="loginScreenIvEyeRight">30dp</dimen>
+
+    <dimen name="loginScreenBtnSignupHeight">70dp</dimen>
+    <dimen name="loginScreenBtnSignupStart">20dp</dimen>
+    <dimen name="loginScreenBtnSignupLeft">20dp</dimen>
+    <dimen name="loginScreenBtnSignupRight">20dp</dimen>
+    <dimen name="loginScreenBtnSignupEnd">20dp</dimen>
+    <dimen name="loginScreenBtnSignupTop">25dp</dimen>
+    <dimen name="loginScreenBtnSignupRadius">30dp</dimen>
+    <dimen name="loginScreenBtnSignupStroke">2dp</dimen>
+
+    <dimen name="loginScreenLinearLayoutTop">25dp</dimen>
+    <dimen name="loginScreenLinearLayoutHeight">1dp</dimen>
+
+    <dimen name="loginScreenIvTop">25dp</dimen>
+
+    <dimen name="loginScreenTvForgotPswTop">25dp</dimen>
+    <dimen name="loginScreenTvForgotPswEnd">20dp</dimen>
+    <dimen name="loginScreenTvForgotPswRight">20dp</dimen>
+    <dimen name="loginScreenTvForgotPswBottom">31dp</dimen>
+
+    // Register Screen
+    <dimen name="registerScreenIvWidth">200dp</dimen>
+
+    <dimen name="registerScreenEtmailHeight">60dp</dimen>
+    <dimen name="registerScreenEtmailStart">20dp</dimen>
+    <dimen name="registerScreenEtmailTop">10dp</dimen>
+    <dimen name="registerScreenEtmailLeft">20dp</dimen>
+    <dimen name="registerScreenEtmailRight">20dp</dimen>
+    <dimen name="registerScreenEtmailEnd">20dp</dimen>
+
+    <dimen name="registerScreenEtpswHeight">60dp</dimen>
+    <dimen name="registerScreenEtpswStart">20dp</dimen>
+    <dimen name="registerScreenEtpswTop">10dp</dimen>
+    <dimen name="registerScreenEtpswLeft">20dp</dimen>
+    <dimen name="registerScreenEtpswRight">20dp</dimen>
+    <dimen name="registerScreenEtpswEnd">20dp</dimen>
+
+    <dimen name="registerScreenBtnRegHeight">60dp</dimen>
+    <dimen name="registerScreenBtnRegStart">20dp</dimen>
+    <dimen name="registerScreenBtnRegTop">10dp</dimen>
+    <dimen name="registerScreenBtnRegLeft">20dp</dimen>
+    <dimen name="registerScreenBtnRegRight">20dp</dimen>
+    <dimen name="registerScreenBtnRegEnd">20dp</dimen>
+    <dimen name="registerScreenBtnRegStroke">30dp</dimen>
+
+    <dimen name="registerScreenTvLoginTop">10dp</dimen>
+    <dimen name="registerScreenTvLoginRight">25dp</dimen>
+    <dimen name="registerScreenTvLoginEnd">25dp</dimen>
+
+    <dimen name="registerScreenIvEyeRight">30dp</dimen>
+    <dimen name="registerScreenIvEyeEnd">30dp</dimen>
+
+    <dimen name="registerScreenTvStart">20dp</dimen>
+    <dimen name="registerScreenTvTop">10dp</dimen>
+    <dimen name="registerScreenTvLeft">20dp</dimen>
+
+    <dimen name="registerScreenTv2Start">20dp</dimen>
+    <dimen name="registerScreenTv2Top">10dp</dimen>
+    <dimen name="registerScreenTv2Left">20dp</dimen>
+
+    <dimen name="registerScreenEtnameHeight">60dp</dimen>
+    <dimen name="registerScreenEtnameStart">20dp</dimen>
+    <dimen name="registerScreenEtnameTop">10dp</dimen>
+    <dimen name="registerScreenEtnameLeft">20dp</dimen>
+    <dimen name="registerScreenEtnameRight">20dp</dimen>
+    <dimen name="registerScreenEtnameEnd">20dp</dimen>
+
+    <dimen name="registerScreenEtadresHeight">60dp</dimen>
+    <dimen name="registerScreenEtadresStart">20dp</dimen>
+    <dimen name="registerScreenEtadresTop">10dp</dimen>
+    <dimen name="registerScreenEtadresLeft">20dp</dimen>
+    <dimen name="registerScreenEtadresRight">20dp</dimen>
+    <dimen name="registerScreenEtadresEnd">20dp</dimen>
+
+    <dimen name="tvReg_size">12sp</dimen>
+
+    // Category Screen
+    <dimen name="categoryScreenIvWidth">200dp</dimen>
+
+    <dimen name="categoryScreenLinearLayoutLeft">10dp</dimen>
+    <dimen name="categoryScreenLinearLayoutRight">10dp</dimen>
+
+    <dimen name="categoryScreenSearchViewWidth">200dp</dimen>
+
+    <dimen name="categoryScreenTvTop">10dp</dimen>
+    <dimen name="categoryScreenTvBottom">10dp</dimen>
+
+    <dimen name="tv_size">18sp</dimen>
+
+    // Product Detail Screen
+    <dimen name="ProductDetailScreencircleImageWidth">150dp</dimen>
+    <dimen name="ProductDetailScreencircleImageHeight">150dp</dimen>
+    <dimen name="ProductDetailScreencircleImageStart">20dp</dimen>
+    <dimen name="ProductDetailScreencircleImageLeft">20dp</dimen>
+    <dimen name="ProductDetailScreencircleImageTop">20dp</dimen>
+    <dimen name="ProductDetailScreencircleImageBottom">25dp</dimen>
+
+    <dimen name="ProductDetailTvTitleStart">20dp</dimen>
+    <dimen name="ProductDetailTvTitleLeft">20dp</dimen>
+    <dimen name="ProductDetailTvTitleRight">20dp</dimen>
+    <dimen name="ProductDetailTvTitleTop">25dp</dimen>
+    <dimen name="ProductDetailTvTitleEnd">20dp</dimen>
+
+    <dimen name="ProductDetailTvDetailStart">20dp</dimen>
+    <dimen name="ProductDetailTvDetailLeft">20dp</dimen>
+    <dimen name="ProductDetailTvDetailRight">20dp</dimen>
+    <dimen name="ProductDetailTvDetailTop">25dp</dimen>
+    <dimen name="ProductDetailTvDetailEnd">20dp</dimen>
+
+    <dimen name="ProductDetailImageWidth">200dp</dimen>
+
+    <dimen name="ProductDetailBtnDetailHeight">60dp</dimen>
+    <dimen name="ProductDetailBtnDetailStart">20dp</dimen>
+    <dimen name="ProductDetailBtnDetailLeft">20dp</dimen>
+    <dimen name="ProductDetailBtnDetailRight">20dp</dimen>
+    <dimen name="ProductDetailBtnDetailTop">20dp</dimen>
+    <dimen name="ProductDetailBtnDetailEnd">20dp</dimen>
+    <dimen name="ProductDetailBtnDetailRadius">30dp</dimen>
+
+    <dimen name="ProductDetailTv2DetailStart">83dp</dimen>
+    <dimen name="ProductDetailTv2DetailLeft">83dp</dimen>
+    <dimen name="ProductDetailTv2DetailRight">83dp</dimen>
+    <dimen name="ProductDetailTv2DetailTop">50dp</dimen>
+    <dimen name="ProductDetailTv2DetailEnd">83dp</dimen>
+    <dimen name="ProductDetailTv2DetailBottom">10dp</dimen>
+
+    <dimen name="ProductDetailTvPricePcsStart">82dp</dimen>
+    <dimen name="ProductDetailTvPricePcsLeft">82dp</dimen>
+    <dimen name="ProductDetailTvPricePcsRight">84dp</dimen>
+    <dimen name="ProductDetailTvPricePcsTop">10dp</dimen>
+    <dimen name="ProductDetailTvPricePcsEnd">84dp</dimen>
+    <dimen name="ProductDetailTvPricePcsBottom">50dp</dimen>
+
+    <dimen name="ProductDetailLinearLayout2Top">10dp</dimen>
+
+    <dimen name="ProductDetailIvRemoveStart">50dp</dimen>
+    <dimen name="ProductDetailIvRemoveLeft">50dp</dimen>
+    <dimen name="ProductDetailIvRemoveTop">0dp</dimen>
+
+    <dimen name="ProductDetailTvPcsStart">20dp</dimen>
+    <dimen name="ProductDetailTvPcsLeft">20dp</dimen>
+
+    <dimen name="ProductDetailIvAddStart">20dp</dimen>
+    <dimen name="ProductDetailIvAddLeft">20dp</dimen>
+
+    <dimen name="ProductDetailTvPriceStart">80dp</dimen>
+    <dimen name="ProductDetailTvPriceLeft">80dp</dimen>
+    <dimen name="ProductDetailTvPriceRight">60dp</dimen>
+    <dimen name="ProductDetailTvPriceEnd">60dp</dimen>
+
+    <dimen name="ProductIvWidth">200dp</dimen>
+
+    <dimen name="ProductBtnSortWidth">303dp</dimen>
+    <dimen name="ProductBtnSortHeight">60dp</dimen>
+
+    <dimen name="ProductImageBtnWidth">150dp</dimen>
+    <dimen name="ProductImageBtnHeight">60dp</dimen>
+
+    // RVCategory
+    <dimen name="rvCategoryConstraitLayoutLayoutMargin">4dp</dimen>
+    <dimen name="rvCategoryConstraitLayoutLayoutCornerRadius">8dp</dimen>
+
+    <dimen name="rvCategoryCardViewWidth">150dp</dimen>
+    <dimen name="rvCategoryCardViewHeight">150dp</dimen>
+    <dimen name="rvCategoryCardViewTop">10dp</dimen>
+    <dimen name="rvCategoryCardViewBottom">10dp</dimen>
+    <dimen name="rvCategoryCardViewStroke">2dp</dimen>
+
+    <dimen name="rvCategoryCircleImageWidth">100dp</dimen>
+    <dimen name="rvCategoryCircleImageHeight">100dp</dimen>
+    <dimen name="rvCategoryCircleImageTop">10dp</dimen>
+
+    <dimen name="rvCategoryTvCategoryNameTop">10dp</dimen>
+    <dimen name="rvCategoryTvCategoryNameBottom">10dp</dimen>
+
+    <dimen name="rv_categoryContentPadding">24dp</dimen>
+    //RVProduct
+    <dimen name="rvProductCVWidth">175dp</dimen>
+    <dimen name="rvProductCVHeight">175dp</dimen>
+    <dimen name="rvProductCVStart">20dp</dimen>
+    <dimen name="rvProductCVLeft">20dp</dimen>
+    <dimen name="rvProductCVTop">20dp</dimen>
+    <dimen name="rvProductCVEnd">20dp</dimen>
+    <dimen name="rvProductCVRight">20dp</dimen>
+    <dimen name="rvProductCVRadius">30dp</dimen>
+
+    <dimen name="rvProductCircleImageWidth">100dp</dimen>
+    <dimen name="rvProductCircleImageHeight">100dp</dimen>
+    <dimen name="rvProductCircleImageTop">20dp</dimen>
+
+    <dimen name="rvProductTvProductBottom">20dp</dimen>
+    <dimen name="rvProductTvProductTop">20dp</dimen>
+
+</resources>
